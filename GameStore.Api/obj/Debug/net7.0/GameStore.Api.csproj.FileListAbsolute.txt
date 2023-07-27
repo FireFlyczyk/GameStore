@@ -24,3 +24,8 @@ D:\IT\Julio\GameStore\GameStore.Api\obj\Debug\net7.0\refint\GameStore.Api.dll
 D:\IT\Julio\GameStore\GameStore.Api\obj\Debug\net7.0\GameStore.Api.pdb
 D:\IT\Julio\GameStore\GameStore.Api\obj\Debug\net7.0\GameStore.Api.genruntimeconfig.cache
 D:\IT\Julio\GameStore\GameStore.Api\obj\Debug\net7.0\ref\GameStore.Api.dll
+D:\IT\Julio\GameStore\GameStore.Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\IT\Julio\GameStore\GameStore.Api\bin\Debug\net7.0\MinimalApis.Extensions.dll
+D:\IT\Julio\GameStore\GameStore.Api\bin\Debug\net7.0\MiniValidation.dll
+D:\IT\Julio\GameStore\GameStore.Api\obj\Debug\net7.0\GameStore.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\IT\Julio\GameStore\GameStore.Api\obj\Debug\net7.0\GameStore.Api.csproj.CopyComplete

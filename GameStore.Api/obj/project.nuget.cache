@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "P5/gBob0VkyeLXumBK0Ylp+QfbMcsdo0JDu8VvmbNLF2vXCyMnUM6MfeXMRAi3Soix2KbZXgJt7IkE8bMh/mhQ==",
+  "dgSpecHash": "ptwfAKpUPCfCvvTLox+0WstKpxv1fFpw0xq0DZDccD3uljehd98TmP9ArD0G9HI4VPtJQ6GgnDMUhtKMheqXFw==",
   "success": true,
   "projectFilePath": "D:\\IT\\Julio\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\yaros\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\yaros\\.nuget\\packages\\minimalapis.extensions\\0.11.0\\minimalapis.extensions.0.11.0.nupkg.sha512",
+    "C:\\Users\\yaros\\.nuget\\packages\\minivalidation\\0.8.0\\minivalidation.0.8.0.nupkg.sha512"
+  ],
   "logs": []
 }
