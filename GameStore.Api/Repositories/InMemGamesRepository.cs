@@ -17,7 +17,7 @@ namespace GameStore.Api.Repositories
         Genre = "RPG",
         Price = 40,
         ReleaseDate = new DateTime(2015, 1, 1),
-        ImageUrl = "https://placehold.co/100"
+        ImageUri = "https://placehold.co/100"
     },
     new Game()
     {
@@ -26,7 +26,7 @@ namespace GameStore.Api.Repositories
         Genre = "Roleplaying",
         Price = 59.99M,
         ReleaseDate = new DateTime(2010, 9, 30),
-        ImageUrl = "https://placehold.co/100 "
+        ImageUri = "https://placehold.co/100 "
     },
     new Game()
     {
@@ -35,7 +35,7 @@ namespace GameStore.Api.Repositories
         Genre = "Sports",
         Price = 69.99M,
         ReleaseDate = new DateTime(2022, 9, 27),
-        ImageUrl = "https://placehold.co/100 "
+        ImageUri = "https://placehold.co/100 "
     }};
 
         public IEnumerable<Game> GetAll()

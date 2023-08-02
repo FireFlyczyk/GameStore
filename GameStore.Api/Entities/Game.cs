@@ -18,7 +18,7 @@ namespace GameStore.Api.Entities
         public DateTime ReleaseDate { get; set; }
         [Url]
         [StringLength(100)]
-        public required string ImageUrl { get; set; }
+        public required string ImageUri { get; set; }
 
     }
 
