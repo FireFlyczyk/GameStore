@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "gaMwUMohOik8FfpWbWjSOeZOUDXVFdZRo3zqp2WBJas9ZzP/Q70ubyOg4AMi2Lt9BH9z9LChOadwWnngP9WaFg==",
+  "dgSpecHash": "WCZCt7g38Bz0nRu8FtOZgptWvV5Hc5VfT10l5iXeSTpBAtghFivTSBxD8/xHb9n85Y1PNKZf+Kz6q56PLx3FlQ==",
   "success": true,
   "projectFilePath": "D:\\IT\\Julio\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yaros\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\yaros\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\yaros\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\yaros\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.9\\microsoft.aspnetcore.authentication.jwtbearer.7.0.9.nupkg.sha512",
     "C:\\Users\\yaros\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\yaros\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\yaros\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",
