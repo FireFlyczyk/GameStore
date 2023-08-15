@@ -11,14 +11,17 @@ namespace GameStore.Api.Repositories
     public class EntityFrameworkGamesRepository : IGamesRepository
     {
         private readonly GameStoreContext dbContext;
-        public EntityFrameworkGamesRepository(GameStoreContext dbContext)
+        private readonly ILogger<EntityFrameworkGamesRepository> logger;
+        public EntityFrameworkGamesRepository(GameStoreContext dbContext, ILogger<EntityFrameworkGamesRepository> logger)
         {
             this.dbContext = dbContext;
+            this.logger = logger;
         }
         public async Task CreateAsync(Game game)
         {
             dbContext.Games.Add(game);
             await dbContext.SaveChangesAsync();
+            logger.LogInformation("Created game {Name} with price {Price}.", game.Name, game.Price);
         }
 
         public async Task DeleteAsync(int id)
@@ -26,7 +29,7 @@ namespace GameStore.Api.Repositories
           await dbContext.Games.Where(g => g.Id == id).ExecuteDeleteAsync();
         }
 
-        public async Task< Game> GetAsync(int id)
+        public async Task<Game> GetAsync(int id)
         {
             return await dbContext.Games.FindAsync(id);
         }

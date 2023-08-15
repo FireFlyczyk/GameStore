@@ -11,9 +11,9 @@ builder.Services.AddGamesStoreAuthorization();
 var app = builder.Build(); 
 
 await app.Services.InitializeDbContextAsync();
+app.UseHttpLogging();
 
 app.MapGamesEndpoints();
-
 app.Run();
 
 
